@@ -1,0 +1,22 @@
+.fancyheading {
+    font-size: 6rem;
+    letter-spacing: 5px;
+    margin: 0;
+    -webkit-text-stroke-width: 2px;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0d1b1e;
+    -moz-text-stroke-color: #0d1b1e;
+    color: transparent;
+    text-shadow: 5px 5px #bada55;
+    animation: .8s ease-out 0s 1 fancyheading;
+}
+
+@keyframes fancyheading {
+    0% {
+        text-shadow: 0px 0px #bada55;
+    }
+
+    100% {
+        text-shadow: 5px 5px #bada55;
+    }
+}

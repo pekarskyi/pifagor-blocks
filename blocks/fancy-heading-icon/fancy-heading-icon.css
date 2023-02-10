@@ -1,0 +1,38 @@
+.fancy_heading_icon h1 {
+    color: #111;
+    font-family: 'droid serif', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    margin: 0;
+    padding: 20px 30px 0;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.fancy_heading_icon .line {
+    border-top: 1px solid #111;
+    display: block;
+    margin-top: 60px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.fancy_heading_icon .dashicons {
+    background: #111;
+    border-radius: 50%;
+    border: 10px solid #fdfdfd;
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    font-weight: normal;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    margin: -40px 0 0 -40px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    text-align: center;
+    text-transform: uppercase;
+}

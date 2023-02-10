@@ -1,0 +1,39 @@
+.pf_icon_display {
+    display: block;
+}
+
+.pf_icon_display_none {
+    display: none;
+}
+
+.pf-quote-block {
+    position: relative;
+    background: #F3F3F3;
+    padding: 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem 0rem 5rem 0rem;
+}
+
+.pf-quote-block .brxe-svg {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+.pf-quote-block .pf-quote-block__line {
+    position: absolute;
+    bottom: 0px;
+}
+
+.pf-quote-block__author {
+    text-align: left;
+    color: #969696;
+}
+
+@media (max-width: 768px) {
+    .pf-quote-block {
+        padding: 4rem;
+    }
+}

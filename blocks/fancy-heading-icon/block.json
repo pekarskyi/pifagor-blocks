@@ -1,0 +1,17 @@
+{
+    "name": "acf/fancy-heading-icon",
+    "title": "Fancy Heading Icon",
+    "description": "Fancy Heading with icon",
+    "style": [ "file:./fancy-heading-icon.css" ],
+    "category": "pifagor",
+    "icon": "heading",
+    "keywords": ["heading", "title"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "fancy-heading-icon-render.php"
+    },
+    "supports": {
+    "reusable": false
+},
+    "align": "full"
+}

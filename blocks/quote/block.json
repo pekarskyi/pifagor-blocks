@@ -1,0 +1,17 @@
+{
+    "name": "acf/quotes",
+    "title": "Quotes",
+    "description": "Quotes for you site",
+    "style": [ "file:./quotes.css" ],
+    "category": "pifagor",
+    "icon": "format-quote",
+    "keywords": ["quotes", "quote"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "quotes-render.php"
+    },
+    "supports": {
+    "reusable": false
+},
+    "align": "full"
+}
