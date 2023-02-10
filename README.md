@@ -13,7 +13,7 @@ Fancy Hrading with icon - заголовок з іконкою. Іконки в�
 
 ## Список файлів
 
-`txt
+```txt
 
 |---pifagor-blocks.php
 |---blocks
@@ -33,4 +33,4 @@ Fancy Hrading with icon - заголовок з іконкою. Іконки в�
     |---pifagor-blocks-ru_RU.mo
     |---pifagor-blocks-ru_RU.po
     `---pifagor-blocks.pot
-`
+```
