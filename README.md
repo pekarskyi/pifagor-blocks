@@ -13,21 +13,21 @@ Fancy Hrading with icon - заголовок з іконкою. Іконки в�
 
 ## Список файлів
 
-|---pifagor-blocks.php
-|---blocks
-|   |---fancy-heading
-|   |   |---block.json
-|   |   |---fancy-heading-render.php
-|   |   `---fancy-heading.css
-|   |---fancy-heading-icon
-|   |   |---block.json
-|   |   |---fancy-heading-icon-render.php
-|   |   `---fancy-heading-icon.css
-|   `---quote
-|       |---block.json
-|       |---quotes-render.php
-|       `---quotes.css
-`---languages
-    |---pifagor-blocks-ru_RU.mo
-    |---pifagor-blocks-ru_RU.po
-    `---pifagor-blocks.pot
+|---pifagor-blocks.php<br>
+|---blocks<br>
+|   |---fancy-heading<br>
+|   |   |---block.json<br>
+|   |   |---fancy-heading-render.php<br>
+|   |   `---fancy-heading.css<br>
+|   |---fancy-heading-icon<br>
+|   |   |---block.json<br>
+|   |   |---fancy-heading-icon-render.php<br>
+|   |   `---fancy-heading-icon.css<br>
+|   `---quote<br>
+|       |---block.json<br>
+|       |---quotes-render.php<br>
+|       `---quotes.css<br>
+`---languages<br>
+    |---pifagor-blocks-ru_RU.mo<br>
+    |---pifagor-blocks-ru_RU.po<br>
+    `---pifagor-blocks.pot<br>
