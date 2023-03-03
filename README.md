@@ -16,6 +16,7 @@ Fancy Hrading with icon - заголовок з іконкою. Іконки в�
 ```txt
 
 |---pifagor-blocks.php
+|---acf-export-pifagor-block.json
 |---blocks
 |   |---fancy-heading
 |   |   |---block.json
