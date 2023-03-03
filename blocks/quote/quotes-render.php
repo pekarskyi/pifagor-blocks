@@ -13,7 +13,10 @@ if ( empty( $block['id'] ) ) {
 
 $pf_text_quote = get_field( 'pf_text_quote' ) ?: esc_html__( 'Your quote text is here...', 'pifagor-blocks');
 $pf_author_quote = get_field( 'pf_author_quote' );
-$pf_backcolor_quote = get_field( 'pf_backcolor_quote' );
+$pf_text_color_quote = get_field( 'pf_text_color_quote' );
+$pf_background_color_quote = get_field( 'pf_background_color_quote' );
+$pf_color_author_quote = get_field( 'pf_color_author_quote' );
+$pf_unique_id = get_field( 'pf_unique_id' );
 
 if ( get_field('pf_icon_quote') == true ) {
 	$pf_icon_display = 'pf_icon_display';
@@ -23,7 +26,18 @@ if ( get_field('pf_icon_quote') == true ) {
 
 ?>
 
-<div class="pf-quote-block" style= "background:<?php echo $pf_backcolor_quote; ?>" >
+<style type="text/css">
+.custom-style-block-<?=$pf_unique_id?> {
+	color: <?=$pf_text_color_quote?> !important;
+    background: <?=$pf_background_color_quote?> !important;
+}
+
+.custom-style-author-<?=$pf_unique_id?> {
+	color: <?=$pf_color_author_quote?> !important;
+}
+</style>
+
+<div class="pf-quote-block custom-style-block-<?php echo $pf_unique_id; ?>">
 
 	<div class="<?php echo $pf_icon_display; ?>">
 		<svg class="brxe-svg" id="brxe-ogdswa" xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="none"
@@ -36,7 +50,7 @@ if ( get_field('pf_icon_quote') == true ) {
 
 	<div class="pf-quote-block__container" >
 	<p class="pf-quote-block__content"><?php echo $pf_text_quote; ?></p>
-	<p class="pf-quote-block__author"><?php echo $pf_author_quote; ?></p>
+	<p class="pf-quote-block__author custom-style-author-<?php echo $pf_unique_id; ?>"><?php echo $pf_author_quote; ?></p>
 		</div>
 
 	<svg class="pf-quote-block__line" id="brxe-gazqhj" xmlns="http://www.w3.org/2000/svg" width="175" height="9"
